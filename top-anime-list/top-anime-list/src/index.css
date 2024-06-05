@@ -9,8 +9,7 @@
 @tailwind utilities;
 
 body {
-  background: indigo;
-  background: linear-gradient(35deg, hsl(0, 0%, 0%), rgb(55, 48, 163));
+  background: hsl(275, 100%, 15%);
   margin: 0;
   padding: 0;
 }

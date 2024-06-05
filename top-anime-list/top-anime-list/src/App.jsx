@@ -43,6 +43,39 @@ function App() {
     },
   ];
 
+  const images2 = [
+    {
+      src: "/src/assets/images/",
+      description: "Anime Name:",
+      descriptionText: "",
+      objectPosition: "center top",
+    },
+    {
+      src: "/src/assets/images/",
+      description: "Anime Name:",
+      descriptionText: "",
+      objectPosition: "center top",
+    },
+    {
+      src: "/src/assets/images/",
+      description: "Anime Name:",
+      descriptionText: "",
+      objectPosition: "center top",
+    },
+    {
+      src: "/src/assets/images/",
+      description: "Anime Name:",
+      descriptionText: "",
+      objectPosition: "center top",
+    },
+    {
+      src: "/src/assets/images/",
+      description: "Anime Name:",
+      descriptionText: "",
+      objectPosition: "center top",
+    },
+  ];
+
   return (
     <>
       <Header />
@@ -54,6 +87,7 @@ function App() {
         <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
           Top 5 Isekai Anime:
         </h1>
+        <Carousel images={images2} />
       </div>
     </>
   );
