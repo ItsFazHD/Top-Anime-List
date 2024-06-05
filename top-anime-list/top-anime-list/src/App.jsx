@@ -1,9 +1,9 @@
 import Header from "./Header";
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Carousel from "./Carousel";
-import Images from "./Images";
 
-import Footer from "./Footer";
+// eslint-disable-next-line no-unused-vars
 import { object } from "prop-types";
 function App() {
   const images1 = [
@@ -87,6 +87,18 @@ function App() {
         <Carousel images={images1} />
         <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
           Top 5 Isekai Anime:
+        </h1>
+        <Carousel images={images2} />
+        <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
+          Top 5 Slice Of Life Anime:
+        </h1>
+        <Carousel images={images2} />
+        <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
+          Top 5 Shounen Anime:
+        </h1>
+        <Carousel images={images2} />
+        <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
+          Top 5 Comedy Anime:
         </h1>
         <Carousel images={images2} />
       </div>
