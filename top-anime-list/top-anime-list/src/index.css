@@ -10,8 +10,18 @@
 
 body {
   background: indigo;
-  background: linear-gradient(35deg, hsl(0, 0%, 0%), 40%, rgb(55, 48, 163));
-  height: 100vh;
+  background: linear-gradient(35deg, hsl(0, 0%, 0%), rgb(55, 48, 163));
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  color: rgb(255, 255, 255); /* Change this to your desired color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(0, 0, 0); /* Change this to your desired color for active dot */
 }
 
 .cinzel-decorative-regular {

@@ -1,4 +1,3 @@
-// src/ImageCarousel.js
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Slider from "react-slick";
@@ -29,25 +28,29 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div className="w-full h-full relative">
-      <div className="w-5/12 mx-auto py-10 relative">
+      <div className="w-full sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-1/3 mx-auto py-10 relative">
         <Slider {...settings}>
-          {images.map((img, index) => (
+          {images.map((image, index) => (
             <div
               key={index}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}>
               <div className="relative">
-                <img
-                  src={img}
-                  alt={`Slide ${index + 1}`}
-                  style={{ width: "800px", height: "400px" }} // Adjust the width and height here
-                />
-
+                <div className="w-full h-80 overflow-hidden">
+                  <img
+                    src={image.src}
+                    alt={`Slide ${index + 1}`}
+                    className="w-full h-full object-cover rounded-lg"
+                    style={{
+                      objectPosition: image.objectPosition || "center top",
+                    }} // Apply object position per image
+                  />
+                </div>
                 {hoveredIndex === index && (
                   <div className="absolute inset-0 bg-black opacity-75 flex items-center justify-center">
                     <div className="text-white text-center">
-                      {/* Display information here */}
-                      <p>Image {index + 1} Description</p>
+                      <p>{image.description}</p>
+                      <p className="m-2">{image.descriptionText}</p>
                     </div>
                   </div>
                 )}
@@ -61,7 +64,13 @@ const ImageCarousel = ({ images }) => {
 };
 
 ImageCarousel.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      src: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      objectPosition: PropTypes.string, // Add objectPosition propType
+    })
+  ).isRequired,
 };
 
 export default ImageCarousel;
