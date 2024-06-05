@@ -1,13 +1,13 @@
 function Header() {
   return (
     <>
-      <header className="text-start text-6xl font-Reenie bg-indigo-800 text-gray-200 p-6">
+      <header className="text-start text-6xl font-Reenie text-gray-200 p-6">
         FazHD&apos;s Top Anime List
         <div className="flex justify-end">
           <textarea
             name="Search"
             id="search"
-            className="h-8 w-80 bg-indigo-800 text-white text-xl border-2 border-gray-200"></textarea>
+            className="h-8 w-80 bg-transparent text-white text-xl border-2 mr-2"></textarea>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
