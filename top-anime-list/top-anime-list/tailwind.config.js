@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         Danfo: ["Danfo", "serif"],
         Reenie: ["Reenie Beanie", "cursive"],
+        kobajeon: ["kobajeon", "cursive"],
+        Cinzel: ["cinzel", "serif"],
+        Fuzzy: ["Fuzzy Bubbles", "serif"],
       },
     },
   },
