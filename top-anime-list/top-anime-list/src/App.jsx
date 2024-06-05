@@ -1,6 +1,7 @@
 import Header from "./Header";
 import React from "react";
 import Carousel from "./Carousel";
+import Images from "./Images";
 
 import Footer from "./Footer";
 import { object } from "prop-types";
