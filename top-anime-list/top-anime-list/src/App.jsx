@@ -5,9 +5,11 @@ import Carousel from "./Carousel";
 import Footer from "./Footer";
 function App() {
   const imagesSet1 = [
-    "https://via.placeholder.com/800x400?text=Image+1",
-    "https://via.placeholder.com/800x400?text=Image+2",
+    "/src/assets/images/a silent voice.jpg",
+    "/src/assets/images/horimiya.png",
     "https://via.placeholder.com/800x400?text=Image+3",
+    "https://via.placeholder.com/800x400?text=Image+4",
+    "https://via.placeholder.com/800x400?text=Image+5",
   ];
 
   const imagesSet2 = [
@@ -21,6 +23,7 @@ function App() {
       <div className="text-4xl font-Fuzzy text-gray-200 mt-10">
         Top 5 Romance Anime:
         <Carousel images={imagesSet1} />
+        Top 5 Isekai Anime:
         <Carousel images={imagesSet2} />
       </div>
     </>
