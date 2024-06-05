@@ -36,7 +36,7 @@ const ImageCarousel = ({ images }) => {
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}>
               <div className="relative">
-                <div className="w-full h-80 overflow-hidden">
+                <div className="w-full h-96 overflow-hidden">
                   <img
                     src={image.src}
                     alt={`Slide ${index + 1}`}
