@@ -14,6 +14,7 @@ function App() {
         "As a wild youth, elementary school student Shouya Ishida sought to beat boredom in the cruelest ways. When the deaf Shouko Nishimiya transfers into his class, Shouya and the rest of his class thoughtlessly bully her for fun. However, when her mother notifies the school, he is singled out and blamed for everything done to her. With Shouko transferring out of the school, Shouya is left at the mercy of his classmates. He is heartlessly ostracized all throughout elementary and middle school, while teachers turn a blind eye. Now in his third year of high school, Shouya is still plagued by his wrongdoings as a young boy. Sincerely regretting his past actions, he sets out on a journey of redemption: to meet Shouko once more and make amends. Koe no Katachi tells the heartwarming tale of Shouya's reunion with Shouko and his honest attempts to redeem himself, all while being continually haunted by the shadows of his past.",
       objectPosition: "center",
     },
+
     {
       src: "images/romance/horimiya.png",
       description: "Anime Name: Horimiya",
@@ -21,6 +22,7 @@ function App() {
         "On the surface, the thought of Kyouko Hori and Izumi Miyamura getting along would be the last thing in people's minds. After all, Hori has a perfect combination of beauty and brains, while Miyamura appears meek and distant to his fellow classmates. However, a fateful meeting between the two lays both of their hidden selves bare. Even though she is popular at school, Hori has little time to socialize with her friends due to housework. On the other hand, Miyamura lives under the noses of his peers, his body bearing secret tattoos and piercings that make him look like a gentle delinquent. Having opposite personalities yet sharing odd similarities, the two quickly become friends and often spend time together in Hori's home. As they both emerge from their shells, they share with each other a side of themselves concealed from the outside world.",
       objectPosition: "center top",
     },
+
     {
       src: "images/romance/your name.png",
       description: "Anime Name: Your Name",
@@ -28,6 +30,7 @@ function App() {
         "Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture. One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another. Kimi no Na wa. revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.",
       objectPosition: "center",
     },
+
     {
       src: "images/romance/clannad.jpg",
       description: "Anime Name: Clannad",
@@ -35,6 +38,7 @@ function App() {
         "Tomoya Okazaki is a delinquent who finds life dull and believes he'll never amount to anything. Along with his friend Youhei Sunohara, he skips school and plans to waste his high school days away. One day while walking to school, Tomoya passes a young girl muttering quietly to herself. Without warning she exclaims Anpan! (a popular Japanese food) which catches Tomoya's attention. He soon discovers the girl's name is Nagisa Furukawa and that she exclaims things she likes in order to motivate herself. Nagisa claims they are now friends, but Tomoya walks away passing the encounter off as nothing. However, Tomoya finds he is noticing Nagisa more and more around school. Eventually he concedes and befriends her. Tomoya learns Nagisa has been held back a year due to a severe illness and that her dream is to revive the school's drama club. Claiming he has nothing better to do, he decides to help her achieve this goal along with the help of four other girls. As Tomoya spends more time with the girls, he learns more about them and their problems. As he attempts to help each girl overcome her respective obstacle, he begins to realize life isn't as dull as he once thought. ",
       objectPosition: "center top",
     },
+
     {
       src: "images/romance/the dangers in my heart.jpeg",
       description: "Anime Name: Dangers In My Heart",
@@ -52,6 +56,7 @@ function App() {
         "For as long as he can remember, Minoru Kagenou has been fixated on becoming as strong as possible, which has led him to undertake all kinds of rigorous training. This wish, however, does not stem from a desire to be recognized by others; rather, Minoru does everything he can to blend in with the crowd. So, while pretending to be a completely average student during the day, he arms himself with a crowbar and ruthlessly thrashes local biker gangs at night. Yet when Minoru finds himself in a truck accident, his ambitions seemingly come to a sudden end. In his final moments, he laments his powerlessness—no matter how much he trained, there was nothing he could do to overcome his human limitations. But instead of dying, Minoru reawakens as Cid, the second child of the noble Kagenou family, in another world—one where magic is commonplace. With the power he so desired finally within his grasp, he dons the moniker Shadow and establishes Shadow Garden: a group whose sole purpose is to combat the enigmatic Cult of Diablos, an organization born from Cid's imagination. However, as Shadow Garden grows in both membership and influence, it becomes increasingly apparent that the Cult of Diablos is not as fictional as Cid had intended. ",
       objectPosition: "center",
     },
+
     {
       src: "images/isekai/cheat skill.jpeg",
       description:
@@ -60,6 +65,7 @@ function App() {
         "All his life, Yuuya Tenjou has been the subject of resentment and contempt from everyone around him, even from his parents. To make matters worse, his grandfather—the only person who ever showed him affection—suddenly dies, leaving Yuuya truly alone. Despite facing many adversities, Yuuya does what he can to offer kindness to those who need it—but even the most good-natured people can only tolerate so much abuse. Just when he reaches his breaking point, a flicker of hope appears in the form of a hidden door in his bathroom. This door provides two-way access to an abandoned house in another world, where he instantly gains game-like stats and skills. Moreover, the house once belonged to a sage, which gives Yuuya access to remarkable weapons, equipment, and crops with extraordinary effects. With these newfound blessings, the once-undesirable Yuuya may just reach his true potential and become unstoppable.",
       objectPosition: "center",
     },
+
     {
       src: "images/isekai/healing magic.png",
       description: "Anime Name: The Wrong Way to Use Healing Magic",
@@ -67,6 +73,7 @@ function App() {
         "Ken Usato is a normal high-schooler in every sense of the word—average grades, dreams, and a tendency to dislike extraordinary people. However, when he encounters the president and the vice president of the student council, both popular and extraordinary, he immediately befriends them. All of this is interrupted when Ken's new friends are summoned into another world—and he accidentally gets summoned as well! Dejected and with no way to return, he resigns himself to staying quietly in the new world—until he finds out he has an affinity for healing magic, a very rare form of magic which gives him both self-confidence and the attention of all mages. However, not all attention is good, which is something Ken realizes when he is noticed by a crazy fellow healing magic user...",
       objectPosition: "center top",
     },
+
     {
       src: "images/isekai/strongest.jpeg",
       description: "Anime Name: Am I Actually the Strongest?",
@@ -74,6 +81,7 @@ function App() {
         "A 20-year-old shut-in is suddenly transported from his apartment, only to appear in front of a goddess who offers him a second chance at life. Although she grants him overpowered magical abilities in this new world, when he awakes as the newborn Prince Reinhardt, his talents are only measured at Level 2. Thinking their child to be an abysmal failure, his royal parents abandon him in the woods. There, the prince, who names himself Haruto, encounters Flay, a Flame Fenrir who decides to devote her life in service to him. Haruto's relative, Gold Zenfis, meets them both in the woods and decides to adopt the child as his own. Nine years pass with Haruto under the care of the Zenfis family. His mastery over his overpowered barrier magic increases by the day, though Haruto would rather not use it to help others. He practices his magic in secret, preferring to have his family believe that he is weak. However, his younger sister, Charlotte, discovers his strength, and with the assistance of Flay, Haruto protects her and the rest of the Zenfis family from harm. With a shifty plot stirring in the kingdom, Haruto only wishes to stay inside and watch anime, but it seems he will have to use his magic to keep the family that took him in safe. ",
       objectPosition: "center top",
     },
+
     {
       src: "images/isekai/villainess 99.jpeg",
       description:
@@ -91,6 +99,7 @@ function App() {
         "As a member of a malevolent organization, the General is tasked with invading Earth and wiping out humanity. Even an extraterrestrial being like him, however, needs a chance to rest. Not even the Rangers—a team solely dedicated to defeating the General and his colleagues—will stand in the way of him visiting pandas at the zoo, buying ice cream at the convenience store, and enjoying his well-deserved day off from committing evil deeds.",
       objectPosition: "center",
     },
+
     {
       src: "images/slice of life/spy x family.jpeg",
       description: "Spy X Family",
@@ -98,6 +107,7 @@ function App() {
         "For the agent known as Twilight, no order is too tall if it is for the sake of peace. Operating as Westalis' master spy, Twilight works tirelessly to prevent extremists from sparking a war with neighboring country Ostania. For his latest mission, he must investigate Ostanian politician Donovan Desmond by infiltrating his son's school: the prestigious Eden Academy. Thus, the agent faces the most difficult task of his career: get married, have a child, and play family. Twilight, or Loid Forger, quickly adopts the unassuming orphan Anya to play the role of a six-year-old daughter and prospective Eden Academy student. For a wife, he comes across Yor Briar, an absent-minded office worker who needs a pretend partner of her own to impress her friends. However, Loid is not the only one with a hidden nature. Yor moonlights as the lethal assassin Thorn Princess. For her, marrying Loid creates the perfect cover. Meanwhile, Anya is not the ordinary girl she appears to be; she is an esper, the product of secret experiments that allow her to read minds. Although she uncovers their true identities, Anya is thrilled that her new parents are cool secret agents! She would never tell them, of course. That would ruin the fun. Under the guise of The Forgers, the spy, the assassin, and the esper must act as a family while carrying out their own agendas. Although these liars and misfits are only playing parts, they soon find that family is about far more than blood relations. ",
       objectPosition: "center top",
     },
+
     {
       src: "images/slice of life/guide to babysitting.png",
       description: "The Yakuza's Guide To Babysitting",
@@ -105,6 +115,7 @@ function App() {
         "Tooru Kirishima's notoriety is spread far and wide in the underworld. He is most commonly known as The Demon of Sakuragi—a man who is not afraid to resort to violence if deemed necessary. After almost jeopardizing a peace treaty, his boss tasks him with the most difficult job he has ever had: taking care of seven-year-old Yaeka Sakuragi—the boss' precious daughter—so that Tooru understands what it means to be responsible for another life. At first, the two do not seem to meet eye to eye, as Tooru has no clue on how to communicate with Yaeka, and the young girl is not used to expressing her emotions. However, as time goes on, they come to understand each other despite their differences. The fearsome right-hand man of a yakuza boss and the child he must protect are about to learn that family is not always bound by blood.",
       objectPosition: "center top",
     },
+
     {
       src: "images/slice of life/househusband.png",
       description: "The Way Of The Househusband",
@@ -112,11 +123,54 @@ function App() {
         "Immortal Tatsu, the legendary yakuza who single-handedly defeated a rival gang with a lead pipe, is a name known to strike fear in both hardened police officers and vicious criminals. Soon after his sudden disappearance, he resurfaces with a slight change in profession. Now equipped with an apron, Tatsu has given up violence and is trying to make an honest living as a house husband. While adapting to mundane household tasks, Tatsu finds that being a house husband has its own challenges, from the battlefield known as supermarket sales to failures in the kitchen. Despite living peacefully, misunderstandings seem to follow him left and right. Gokushufudou follows the daily life of the comically serious ex-yakuza as he leaves behind his dangerous previous life to become a stay-at-home husband.",
       objectPosition: "center top",
     },
+
     {
       src: "images/slice of life/bunny drop.png",
       description: "Bunny Drop",
       descriptionText:
         "Daikichi Kawachi is a 30-year-old bachelor working a respectable job but otherwise wandering aimlessly through life. When his grandfather suddenly passes away, he returns to the family home to pay his respects. Upon arriving at the house, he meets a mysterious young girl named Rin who, to Daikichi’s astonishment, is his grandfather's illegitimate daughter! The shy and unapproachable girl is deemed an embarrassment to the family, and finds herself ostracized by her father's relatives, all of them refusing to take care of her in the wake of his death. Daikichi, angered by their coldness towards Rin, announces that he will take her in—despite the fact that he is a young, single man with no prior childcare experience. Usagi Drop is the story of Daikichi's journey through fatherhood as he raises Rin with his gentle and affectionate nature, as well as an exploration of the warmth and interdependence that are at the heart of a happy, close-knit family.",
+      objectPosition: "center top",
+    },
+  ];
+
+  const images4 = [
+    {
+      src: "images/shounen/dbz.jpg",
+      description: "Dragon Ball Z",
+      descriptionText:
+        "Five years after winning the World Martial Arts tournament, SON-Goku is now living a peaceful life with his wife and son. This changes, however, with the arrival of a mysterious enemy named Raditz who presents himself as Goku's long-lost brother. He reveals that Goku is a warrior from the once powerful but now virtually extinct Saiyan race, whose homeworld was completely annihilated. When he was sent to Earth as a baby, Goku's sole purpose was to conquer and destroy the planet; but after suffering amnesia from a head injury, his violent and savage nature changed, and instead was raised as a kind and well-mannered boy, now fighting to protect others. With his failed attempt at forcibly recruiting Goku as an ally, Raditz warns Goku's friends of a new threat that's rapidly approaching Earth—one that could plunge Earth into an intergalactic conflict and cause the heavens themselves to shake. A war will be fought over the seven mystical dragon balls, and only the strongest will survive in Dragon Ball Z.",
+      objectPosition: "center top",
+    },
+
+    {
+      src: "images/shounen/jjk.jpeg",
+      description: "Jujutsu Kaisen",
+      descriptionText:
+        "Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the King of Curses. Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.",
+      objectPosition: "center top",
+    },
+
+    {
+      src: "images/shounen/mashle.jpeg",
+      description: "Mashle: Magic and Muscles",
+      descriptionText:
+        "In this magical world, one is easily identified as having magical abilities by a distinctive mark on their face. Those unable to practice magic are swiftly exterminated to maintain the magical integrity of society. However, deep within a forest lies an anomaly in Mash Burnedead, who can be found pumping iron with one arm and lifting a cream puff with the other. This aloof boy with superhuman strength—but no magical abilities—leads a quiet life with his father, far removed from society. Mash's peace is soon disturbed when the authorities discover his lack of magical powers. They issue him an ultimatum: compete to become a Divine Visionary, which would force everyone to accept him, or be persecuted forever. To protect his family, he enrolls in the prestigious Easton Magic Academy, which only the most elite and gifted students are allowed to attend. Now, Mash must overcome his shortcomings as a magicless being and surpass the other students—relying solely on his muscles.",
+      objectPosition: "center top",
+    },
+
+    {
+      src: "images/shounen/aot.jpg",
+      description: "Attack On Titan",
+      descriptionText:
+        "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations. After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Based on Hajime Isayama's award-winning manga, Shingeki no Kyojin follows Eren, along with his adopted sister Mikasa Ackerman and his childhood friend Armin Arlert, as they join the brutal war against the titans and race to discover a way of defeating them before the last walls are breached.",
+      objectPosition: "center top",
+    },
+
+    {
+      src: "images/shounen/hells paradise.jpeg",
+      description: "Hell's Paradise",
+      descriptionText:
+        "Sentenced to death, ninja Gabimaru the Hollow finds himself apathetic. After leading a blood-soaked life, Gabimaru believes he deserves to die. However, every attempt to execute him inexplicably fails. Finally, Sagiri Yamada Asaemon, a fledgling member of a famed executioner clan, is asked to take Gabimaru's life; yet Sagiri makes no move to kill him as requested. Insisting that Gabimaru will not die because of his love for his wife, Sagiri instead offers him the chance to obtain a full pardon for his crimes. If he can travel to the island of Shinsekyo and obtain the Elixir of Life—which supposedly grants immortality—and bring it back for the shogun, then his freedom will be assured. But of the many who have traveled to Shinsekyo in search of the mythical Elixir, not a single person has returned sound of mind, if at all. Though unaware of the numerous dangers ahead, Gabimaru decides to accept the offer—alongside ten other death row convicts—in hope that he and his wife may finally live in peace.",
       objectPosition: "center top",
     },
   ];
@@ -139,7 +193,7 @@ function App() {
         <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
           Top 5 Shounen Anime:
         </h1>
-        <Carousel images={images2} />
+        <Carousel images={images4} />
         <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
           Top 5 Comedy Anime:
         </h1>
