@@ -29,7 +29,7 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div className="w-full h-full relative">
-      <div className="w-full sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-1/3 mx-auto py-10 relative">
+      <div className="w-full sm:w-11/12 md:w-4/5 lg:w-3/5 xl:w-1/2 mx-auto py-10 relative">
         <Slider {...settings}>
           {images.map((image, index) => (
             <div
@@ -37,7 +37,7 @@ const ImageCarousel = ({ images }) => {
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}>
               <div className="relative">
-                <div className="w-full h-96 overflow-hidden">
+                <div className="w-full h-96 sm:h-64 md:h-72 lg:h-80 xl:h-96 overflow-hidden">
                   <img
                     src={image.src}
                     alt={`Slide ${index + 1}`}
