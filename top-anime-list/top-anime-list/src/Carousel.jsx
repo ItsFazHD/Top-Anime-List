@@ -28,8 +28,8 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className="w-full h-full relative">
-      <div className="w-full sm:w-11/12 p-6 md:w-4/5 lg:w-3/5 xl:w-1/2 mx-auto py-10 relative ">
+    <div className="w-full h-full relative p-6">
+      <div className="w-full sm:w-11/12 md:w-4/5 lg:w-3/5 xl:w-1/2 mx-auto py-10 relative ">
         <Slider {...settings}>
           {images.map((image, index) => (
             <div
