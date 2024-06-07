@@ -51,7 +51,7 @@ const ImageCarousel = ({ images }) => {
                   <div className="absolute inset-0 bg-black opacity-75 flex items-center justify-center">
                     <div className="text-white text-center">
                       <p>{image.description}</p>
-                      <p className="m-4 text-sm">{image.descriptionText}</p>
+                      <p className="m-4 text-xs">{image.descriptionText}</p>
                     </div>
                   </div>
                 )}
