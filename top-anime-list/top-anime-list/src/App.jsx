@@ -174,6 +174,49 @@ function App() {
       objectPosition: "center top",
     },
   ];
+
+  const images5 = [
+    {
+      src: "images/comedy/aho girl.png",
+      description: "Aho-Girl",
+      descriptionText:
+        "Yoshiko Hanabatake is an idiot beyond all belief. Somehow managing to consistently score zeroes on all of her tests and consumed by an absurd obsession with bananas, her senseless acts have caused even her own mother to lose all hope. Only one person is up to the task of keeping her insanity in check: childhood friend Akuru A-kun Akutsu. Though he bemoans the ridiculous behavior he has to endure, the studious but terrifying A-kun is always ready to put an end to any stupidity Yoshiko gets up to, with no qualms about using physical force. Unfortunately, no matter how many times he attempts to knock some sense into her, the girl bounces right back to her usual shenanigans, even dragging in some other eccentrics along for the ride. Try as he might to rein in her nonsense, every moment is unpredictable with Yoshiko and her profound idiocy on the loose. ",
+      objectPosition: "center bottom",
+    },
+
+    {
+      src: "images/comedy/himouto.jpg",
+      description: "Himouto! Umaru-chan",
+      descriptionText:
+        "People are not always who they appear to be, as is the case with Umaru Doma, the perfect high school girl—that is, until she gets home! Once the front door closes, the real fun begins. When she dons her hamster hoodie, she transforms from a refined, over-achieving student into a lazy, junk food-eating otaku, leaving all the housework to her responsible older brother Taihei. Whether she's hanging out with her friends Nana Ebina and Kirie Motoba, or competing with her self-proclaimed rival Sylphinford Tachibana, Umaru knows how to kick back and have some fun! Himouto! Umaru-chan is a cute story that follows the daily adventures of Umaru and Taihei, as they take care of—and put up with—each other the best they can, as well as the unbreakable bonds between friends and siblings.",
+      objectPosition: "center",
+    },
+
+    {
+      src: "images/comedy/toture princess.png",
+      description: "Tis Time for Torture, Princess",
+      descriptionText:
+        "The princess who's been held captive by the Demon Lord's army is scheduled to be executed by the Demon Lord's relentless torture!",
+      objectPosition: "center",
+    },
+
+    {
+      src: "images/comedy/monster girls.png",
+      description: "Interviews With Monster Girls",
+      descriptionText:
+        "High school biology teacher Tetsuo Takahashi may look like your average everyday instructor, but beneath his gentle appearance lies something less ordinary: his fascination for the Ajin, more commonly known as Demi. Although these half-human, half-monster beings have integrated into human society, Takahashi believes that much about them will remain unknown unless he interacts with them firsthand. Demi-chan wa Kataritai follows Takahashi's daily life in Shibasaki High School together with his three Demi students—Hikari Takanashi, an energetic vampire; Kyouko Machi, a gentle dullahan; and Yuki Kusakabe, the shy snow woman. Along the way, Takahashi also meets fellow teacher Sakie Satou, a succubus with an aversion towards men. To fulfill his goal of learning more about the Demi, Takahashi decides to conduct casual interviews with the girls to learn more about their abilities, psyche, and interaction with human society. As Takahashi strengthens his bond with his students, he soon discovers that the Demi are not as unusual as he initially believed.",
+      objectPosition: "center top",
+    },
+
+    {
+      src: "images/comedy/cool guys.jpg",
+      description: "Play It Cool, Guys",
+      descriptionText:
+        "Despite their distinctive personalities, Souma Shiki, Hayate Ichikura, Shun Futami, and Takayuki Mima all have one thing in common: though naturally clumsy, the four disguise their embarrassment from tiny slip-ups by maintaining a composed demeanor. However, it is actually the guys' airheaded natures that makes the girls' hearts throb. No matter what happens in their daily lives, the boys do their best not to lose their cool! ",
+      objectPosition: "center top",
+    },
+  ];
+
   return (
     <>
       <Header />
@@ -197,7 +240,7 @@ function App() {
         <h1 className="text-4xl font-Fuzzy text-gray-200 mt-5">
           Top 5 Comedy Anime:
         </h1>
-        <Carousel images={images2} />
+        <Carousel images={images5} />
       </div>
     </>
   );
